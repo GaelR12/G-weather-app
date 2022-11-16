@@ -11,3 +11,6 @@ h1 {
 .card-image-top {
  align-content: center;
 }
+.card-text {
+  color: black;
+}
