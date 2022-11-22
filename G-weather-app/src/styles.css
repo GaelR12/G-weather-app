@@ -23,11 +23,13 @@ h1 {
   text-align: center;
 }
 .col-4 {
-  background-color: rgb( 22, 37, 255);
+  background-color: rgb(255, 255, 255);
 }
 .col-4 {
 margin-left: auto;
 margin-right: auto;
 }
-
+.container-fluid {
+text-align: center;
+}
 
