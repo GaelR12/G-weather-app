@@ -1,0 +1,19 @@
+<h1>Data</h1>
+
+<label> Temperature </label>
+<input type="text" [(ngModel)]="temperature">
+<label> Wind Speed </label>
+<input type="text" [(ngModel)]="windspeed">
+<label> Huminity </label>
+<input type="text" [(ngModel)]="huminity">
+<button (click)="addWeatherInfo()"> Save Weather </button>
+
+
+<div *ngFor="let history of weatherHistory; let i = index ">
+  <div>{{ history.temperature }}</div>
+  <div>{{ history.windSpeed }}</div>
+  <div>{{ history.huminity }}</div>
+  <button type="button" (click)="deleteInfo(i)"> Delete </button>
+</div>
+
+

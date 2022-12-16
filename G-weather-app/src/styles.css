@@ -7,6 +7,7 @@ p {
 }
 h1 {
   text-align: center;
+  
 }
 .card-image-top {
  align-content: center;
@@ -32,3 +33,4 @@ margin-right: auto;
 .container-fluid {
 text-align: center;
 }
+

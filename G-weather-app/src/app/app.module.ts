@@ -9,6 +9,8 @@ import { Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { WeatherListComponent } from './weather-list/weather-list.component';
+import { FormsModule } from '@angular/forms';
 
 const routes: Routes = ([] = [
   {
@@ -29,9 +31,11 @@ const routes: Routes = ([] = [
     LandingPageComponent,
     NavbarComponent,
     DashboardComponent,
+    WeatherListComponent,
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  imports: [BrowserModule, RouterModule.forRoot(routes), FormsModule],
   providers: [],
   bootstrap: [AppComponent],
+
 })
 export class AppModule {}
